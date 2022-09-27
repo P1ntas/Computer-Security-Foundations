@@ -2,9 +2,9 @@
 
 ## Identificação
 
-- item1
-- item2
-- item3
+- Esta vulnerabilidade afeta as versões do macOS anteriores a 11.6, as do iOS precedentes à 14.8 e as do watchOS que precedem a 7.6.
+- Com este exploit o atacante pode corromper a memória e ficheiros do dispositivo, no entanto, não consegue assumir o controlo do dispositivo. 
+- Este ataque não necessita de privilégios para funcionar.
 - item4
 
 ## Catalogação
@@ -16,14 +16,14 @@
 
 ## Exploit
 
-- item1
+- Bastava a um atacante mandar um ficheiro pdf ou gif por iMessage para comprometer o dispositivo.
 - item2
 - item3
 - item4
 
 ## Ataques
 
-- Embora não se saiba exatamente o número de ataques, é estimado que. este exploit tenha sido utilizado em vários dispositivos de clientes da NSO Group, desde terroristas a ativistas.
-- item2
+- Embora não se saiba exatamente o número de ataques, é estimado que este exploit tenha sido utilizado em vários dispositivos, por exemplo, telemóveis de terroristas ou ativistas.
+- Muitos clientes desta firma são governos, sendo credível que alguns aparelhos afetados tenham sido atacados a mando destes. 
 - item3
 - item4
