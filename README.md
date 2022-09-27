@@ -1,9 +1,8 @@
-
 Breve descrição do grupo
 
-* Turno: [LM]XX
-* Grupo: YY
+* Turno: [L]03
+* Grupo: 03
 * Alunos:
-    - Aluno1 upZZZZZ 
-    - Aluno2 upZZZZZ
-    - Aluno3 upZZZZZ
+    - Afonso da Silva Pinto up202008014
+    - Raquel Marques Carneiro up202005330
+    - José Carlos Cardiano Mota Gonçalves da Cunha up201905451
