@@ -1,4 +1,7 @@
+#Task 1
+
 Output from printenv command:
+
 SHELL=/bin/bash
 SESSION_MANAGER=local/VM:@/tmp/.ICE-unix/2078,unix/VM:/tmp/.ICE-unix/2078
 QT_ACCESSIBILITY=1
