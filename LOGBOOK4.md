@@ -51,3 +51,8 @@ GDMSESSION=ubuntu
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/printenv
 OLDPWD=/home/seed
+
+# Task 2
+
+!
+As we can see, the output is the same in both processes.
