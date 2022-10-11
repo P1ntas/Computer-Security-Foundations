@@ -2,6 +2,7 @@
 
 Output from printenv command:
 
+```
 SHELL=/bin/bash
 SESSION_MANAGER=local/VM:@/tmp/.ICE-unix/2078,unix/VM:/tmp/.ICE-unix/2078
 QT_ACCESSIBILITY=1
@@ -50,9 +51,22 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/us
 GDMSESSION=ubuntu
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/printenv
-OLDPWD=/home/seed
+OLDPWD=/home/seed 
+```
 
 # Task 2
 
-!
-As we can see, the output is the same in both processes.
+![alt text](img/Screenshot%202022-10-11%20at%2000.22.56.JPG)
+As we can see, the output is the same in both processes. That's because the variables are automatically passed to the children process.
+
+# Task 3
+The execve call only has access to the environmental variables with the `environ` command in its invocation. The program without this command is empty, while the second one outputs the environmental variables. 
+
+# Task 4
+
+![alt text](img/Screenshot%202022-10-11%20at%2001.07.25.JPG)
+![alt text](img/Screenshot%202022-10-11%20at%2001.07.54.JPG)
+
+The system function passes the environmental variables array.
+
+# Task 5
