@@ -134,19 +134,22 @@ OLDPWD=/home/seed
 _=./a.out
 ````
 
-As we can see, while the PATH variable is passed on, the other two aren't.
+As we can see, the PATH and test ($ANY_NAME) variables are passed on, while the $LD_LIBRARY_PATH isn't inherited, using the default values.
 
 # Task 6
 
-![alt text](img/Screenshot%202022-10-11%20at%2009.58.51.JPG)
-The output of the original program.
+![alt text](img/Screenshot%202022-10-13%20at%2017.02.03.JPG)
+![alt text](img/Screenshot%202022-10-13%20at%2017.00.32.JPG)
 
-![alt text](img/Screenshot%202022-10-11%20at%2010.01.51.JPG)
-The changed program.
+After using export PATH=$PWD:$PATH
 
-![alt text](img/Screenshot%202022-10-11%20at%2010.02.14.JPG)
-![alt text](img/Screenshot%202022-10-11%20at%2011.10.02.JPG)
-The program has gained privileges.
+![alt text](img/Screenshot%202022-10-13%20at%2017.05.10.JPG)
+
+The malicious code
+
+![alt text](img/Screenshot%202022-10-13%20at%2017.03.34.JPG)
+
+Gained access
 
 #
 # CTF
