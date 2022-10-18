@@ -67,3 +67,9 @@ with open('badfile', 'wb') as f:
 ```
 
 exploit.py code
+
+# CTF
+
+## Desafio 1
+
+![alt text](img/Screenshot_2022-10-18_at_09.05.39.png)
