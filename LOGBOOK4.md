@@ -53,6 +53,7 @@ DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
 _=/usr/bin/printenv
 OLDPWD=/home/seed 
 ```
+![alt text](img/Captura_de_ecrã_2022-10-19_151051.png)
 
 # Task 2
 
