@@ -134,7 +134,7 @@ OLDPWD=/home/seed
 _=./a.out
 ````
 
-As we can see, the PATH and test ($ANY_NAME) variables are passed on, while the $LD_LIBRARY_PATH isn't inherited, using the default values.
+As we can see, the PATH and test ($ANY_NAME) variables are passed on, while the $LD_LIBRARY_PATH isn't inherited, using the default values. That's because it's part of the Linux OS and as such can't be changed by non root users.
 
 # Task 6
 
