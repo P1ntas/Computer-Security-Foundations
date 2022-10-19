@@ -245,4 +245,4 @@ for i in range(3): # We need to try multiple timestamps as we don't get the exac
         print(link + f"\n{RST}")
 ````
 
-By running this python script, we were able to gain access to an admin account. Afterwards, we just needed to go to  http://ctf-fsi.fe.up.pt:5001/wp-admin/edit.php to  find  the flag{e78dd1ba649539b0104483b1e9c37ff0}.
+By running this python script, we were able to gain access to an admin account. Afterwards, we just needed to go to  http://ctf-fsi.fe.up.pt:5001/wp-admin/edit.php to  find  the flag{please don't bother me}.
