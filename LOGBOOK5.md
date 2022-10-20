@@ -72,10 +72,15 @@ exploit.py code
 
 ## Desafio 1
 ![alt text](img/Screenshot_2022-10-18_at_09.05.39.png)
+
 we followed the instructions given and then, after analysing the code , we gathered that the program would read 28 characters so we added 20 "a" before "flag.txt" to overflow.
+
 
 ## Desafio 2
 ![alt text](img/Screenshot_2022-10-18_at_17.34.57.jpg)
+
 we gained access.
+
 ![alt text](img/Screenshot_2022-10-18_at_17.35.24.jpg)
+
 we converted the file's name from hexadecimal to ASCII and ran the script.
