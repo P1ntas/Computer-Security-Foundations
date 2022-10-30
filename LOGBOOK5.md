@@ -77,10 +77,10 @@ we followed the instructions given and then, after analysing the code , we gathe
 
 
 ## Desafio 2
-![alt text](img/Screenshot_2022-10-18_at_17.34.57.jpg)
+![alt text](img/Screenshot%202022-10-18%20at%2017.34.57.JPG)
 
 we gained access.
 
-![alt text](img/Screenshot_2022-10-18_at_17.35.24.jpg)
+![alt text](img/
 
 we converted the file's name from hexadecimal to ASCII and ran the script.
