@@ -38,3 +38,20 @@ The script used. In line 21 are the values we found in the gdb in little endian.
 
 ![alt text](img/flag.JPG)
 Got the flag!
+
+# Desafio 2
+We analysed the program file with `checksec` and found that there is no PIE, so the virtual memory it's kept static.
+![alt text](img/Screenshot_2022-11-08_105024.png)
+
+While analysing the main.c code, we can conclude that if key attribute equals 0xbeef, then we can open the shell. So we altered the key's value.
+![alt text](img/logbook6/image.png)
+
+Just like the last challenge, we run gdb and execute `p &key`, in order to know where the variable is located.
+![alt text](img/logbook6/Screenshot_2022-11-08_111856.png)
+
+As we know where the key is located and that 0xbeef = 48879, we already wrote 8 characters, so it just leave us with 48879-8=48871
+![alt text](img/logbook6/Screenshot_2022-11-08_120237.png)
+
+By executing the python code, we are able to open the backdoor and retreive the flag.
+![alt text](img/logbook6/Screenshot_2022-11-08_120441.png)
+Got the flag!
