@@ -71,7 +71,8 @@ exploit.py code
 # CTF
 
 ## Desafio 1
-![alt text](img/Screenshot_2022-10-18_at_09.05.39.png)
+
+![alt text](img/Screenshot%202022-10-18%20at%2009.05.39.png)
 
 we followed the instructions given and then, after analysing the code , we gathered that the program would read 28 characters so we added 20 "a" before "flag.txt" to overflow.
 
