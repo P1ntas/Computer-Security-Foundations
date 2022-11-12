@@ -81,6 +81,6 @@ we followed the instructions given and then, after analysing the code , we gathe
 
 we gained access.
 
-![alt text](img/
+![alt text](img/Screenshot%202022-10-18%20at%2017.35.24.JPG)
 
 we converted the file's name from hexadecimal to ASCII and ran the script.
