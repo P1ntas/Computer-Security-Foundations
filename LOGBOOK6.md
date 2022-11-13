@@ -24,6 +24,54 @@ Overflowed the server.
 
 # Task 2
 
+## Task 2.A
+
+We used the `build_string.py` to have access to all the data on the stack.
+
+In order to that, we changed the amount of "%x" to 64 for the server to output the number of our input.
+
+In this case, we printed 0xAAAAAAAA.
+
+![alt text](img/logbook6/VirtualBoxVM_tOLfF8Tddx.png)
+
+![alt text](img/logbook6/VirtualBoxVM_bIfxpVCctU.png)
+
+We can see at the end of the server output the string we used.
+
+![alt text](img/logbook6/VirtualBoxVM_NbhWItIzr0.png)
+
+## Task 2.A
+
+In order to have access to the secret message, we changed the number to the secret message address and the last value of the output is now a `%s`.
+
+![alt text](img/logbook6/VirtualBoxVM_EmjYjY0jR6.png)
+
+At the of the output, the secret message was written.
+
+![alt text](img/logbook6/VirtualBoxVM_k7gl93ouOK.png)
+
+# Task 3
+
+## Task 3.A
+
+In order to change the target variable to another value, we must change the number to the target address and the value output is now a `%n`.
+
+![alt text](img/logbook6/VirtualBoxVM_gJkT2jA1xc.png)
+
+At the of the output, a different target value was written.
+
+![alt text](img/logbook6/VirtualBoxVM_AonD8qRyrh.png)
+
+## Task 3.B
+
+In order to change the target value to 0x00005000, we must change the value that is output to match 0x00005000(20480).
+
+![alt text](img/logbook6/VirtualBoxVM_sL2e4cCmg6.png)
+
+By changing the value to `"%322x"*63 + "a%n"*60` and it gave us the wanted output.
+
+![alt text](img/logbook6/VirtualBoxVM_oPjUcu9OKQ.png)
+
 # CTF
 
 # Desafio 1
