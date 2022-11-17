@@ -55,3 +55,14 @@ Changed password
 ![alt text](img/Screenshot%202022-11-12%20at%2023.01.51.JPG)
 
 Gained access
+
+# CTF
+
+## Desafio 1
+
+With the following input, we could login as admin.
+
+![alt text](img/logbook7_ctf1.png)
+
+## Desafio 2
+
