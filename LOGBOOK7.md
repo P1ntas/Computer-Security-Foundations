@@ -66,3 +66,16 @@ With the following input, we could login as admin.
 
 ## Desafio 2
 
+This challenge is a buffer overflow challenge. We started by executing `checksec`. 
+
+![alt text](img/VirtualBoxVM_vDY209IJ9w.png)
+
+In the exploit, we had to open a root shell while executing the program. 
+
+![alt text](img/VirtualBoxVM_mzUDZSsOTg.png)
+
+![alt text](img/VirtualBoxVM_lml3rq5Zys.png)
+
+By executing the python exploit, we got a root shell and executed `cat flag.txt`.
+
+![alt text](img/VirtualBoxVM_EZXyO9Tva3.png)
