@@ -78,9 +78,13 @@ we followed the instructions given and then, after analysing the code , we gathe
 
 
 ## Desafio 2
+
+In this challenge there's a a val variable with 4 bytes and an additional conditional is checked before opening the file.
+We overflow the variables with 0xfefc2223 in reverse (as the architecture is <b>little endian</b>, which we checked with ``checksec``) and the contents of ``flag.txt``.
+
 ![alt text](img/Screenshot%202022-10-18%20at%2017.34.57.JPG)
 
-we gained access.
+We gained access.
 
 ![alt text](img/Screenshot%202022-10-18%20at%2017.35.24.JPG)
 
