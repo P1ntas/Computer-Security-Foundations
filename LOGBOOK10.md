@@ -48,3 +48,19 @@ Lines 1 and 2 send the token needed to authenticate the user when the request is
 ```Question 2```
 
 No, because can only be successful because the Editor mode adds extra HTML and changes symbols.
+
+# CTF
+
+## Challenge 1
+
+We have the id for the Give the flag button, we just need to access it. These buttons are only enbaled to the admin so our purpose is to make the admin click the button Give the flag for us. 
+
+![alt text](img/1st_part_ctf10.png)
+
+We use the following JavaScript to click the button with that id: `<script>document.getElementById('giveflag').click(); </script>`
+
+![alt text](img/2nd_part_ctf10.png)
+
+We got the flag!
+
+![alt text](img/3rd_part_ctf10.png)
