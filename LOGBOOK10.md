@@ -64,3 +64,17 @@ We use the following JavaScript to click the button with that id: `<script>docum
 We got the flag!
 
 ![alt text](img/3rd_part_ctf10.png)
+
+## Challenge 2
+
+Since we don't have credentials, we have to find a way to retrieve the flag.
+
+![alt text](img/logbook10_ctf2_1.png)
+
+When a user submits a user request, the system uses the ping command to send packets to the host. Which gives us access to various commands and allows us to exploit them. Using the `;` allows to inject different commands and access information which we wouldn't be able to access.
+
+![alt text](img/logbook10_ctf2_2.png)
+
+We got the flag!
+
+![alt text](img/logbook10_ctf2_3.png)
