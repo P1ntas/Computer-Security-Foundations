@@ -223,6 +223,6 @@ Got the flag in plain text:
 
 ![alt text](img/Screenshot%202022-12-23%20at%2022.05.05.JPG)
 
-Converted to text using the``to_bytes`` function and got the flag.
+Converted to text using the ``to_bytes`` function and got the flag.
 
 ![alt text](img/Screenshot%202022-12-23%20at%2022.18.14.JPG)
